@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.logo-container {
+    align-content: center;
+    background: rgb(255,83,245);
+    background: linear-gradient(90deg, rgba(255,83,245,1) 0%, rgba(255,62,63,1) 50%, rgba(238,2,138,1) 100%);
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding: 20px;
+}
+.logo {
+    width: 900px;
+    justify-content: center;
+    display: flex;
+    height: 260px;
+    align-self: center;
+}
+.box {
+    align-self: center;
+}
+    
+.h1logo {
+    font-weight: 1000;
+    font-family: monospace;
+    font-size: 140px;
+}
+.datelogo {
+    text-align: center;
+    font-family: monospace;
+    font-size: small;
+}
+.header-container {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    padding: 5px;
+}
+.header {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.sections {
+    display: flex;
+    justify-self: center;
+    justify-content: ;
+    align-items: center;
+
+}
+.social {
+    display: flex;
+    justify-self: flex-end;
+    justify-content: space-between;
+    align-content: center;
+}
+.header-tab {
+    font-weight:100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    align-self: center;
+}
+.article-row-1-container {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    padding: 5px;
+}
+.article-row-1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.article-long-container
+{
+    border: 2px solid;
+    border-color: #EF0B7C;
+    flex: 2;
+    display: flex;
+
+}
+.article-short-container {
+    border: 2px solid;
+    border-color: #EF0B7C;
+    flex-direction: column;
+   flex: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.img-size {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+.short-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-self: center;
+    align-self: flex-start;
+    font-size: 18px;
+    display: flex;
+}
+.long-heading {
+    line-height: 90%;
+    font-size: 2.5em;
+}
+.long-align {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    flex-direction: column;
+}
+.short-author {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.short-align {
+    font-weight: bold;
+    padding: 20px;
+}
+.pink {
+    color: #EF0B7C;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* <p class="header-tab">SCIENCE</p>
+                <p class="header-tab">CREATORS</p>
+                <p class="header-tab">ENTERTAINMENT</p>
+                <p class="header-tab">VIDEO</p>
+                <p class="header-tab">FEATURES</p>
+                <p class="header-tab">PODCASTS</p>
+                <p class="header-tab">MORE</p>*/
